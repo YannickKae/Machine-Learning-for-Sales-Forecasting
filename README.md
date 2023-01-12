@@ -10,5 +10,3 @@ The script performs the following operations:
 5. Uses Tensorflow to construct a neural network model using the Sequential API.
 6. The model uses Dense, BatchNormalization and Dropout layers, as well as an Adam optimizer for training.
 7. The model is trained on the training dataset and can be used to make predictions about the sales on the next day.
-
-The final model can be used to make predictions about future sales of the bakery, based on the features provided in the dataset. It's important to note that the script is splitting the data into training, validation, and test sets to ensure that the model generalizes well, and evaluate the model's performance during the training process as well as finally on unseen data (test set).
